@@ -53,6 +53,30 @@ body {
     justify-content: space-around;
 }
 
+.conteudo-um-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 55px;
+    padding-left: 140px;
+}
+
+.conteudo-um-botao {
+    background-color: #77CFD9;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    font-weight: 700;
+    font-size: 28px;
+    color: #037F8C;
+}
+
+.conteudo-um-botao:hover {
+    background-color: #037F8C;
+    color: #77CFD9;
+}
+
 .conteudo-dois {
     display: flex;
     flex-direction: row;
@@ -62,6 +86,18 @@ body {
     margin-top: 60px;
     margin-bottom: 90px;
     text-align: center;
+}
+
+.cont-dois-gp-um > h2:hover {
+    text-decoration: line-through;
+}
+
+.cont-dois-gp-dois > h2:hover {
+    text-decoration: line-through;
+}
+
+.cont-dois-gp-tres > h2:hover {
+    text-decoration: line-through;
 }
 
 .cont-dois-gp-um {
@@ -120,11 +156,11 @@ body {
     font-size: 64px;
     color: #037F8C;
     width: 500px;
-    padding-left: 100px;
+    
 }
 
 .conteudo-um-imagem {
-    height: 500px;
+    height: 550px;
     padding-right: 50px;
 }
 
